@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tile {
+    display: flex;
+    width: 96px;
+    height: 96px;
+    background-color: white;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.board {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
